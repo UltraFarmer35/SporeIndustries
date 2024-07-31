@@ -1,16 +1,19 @@
 <!DOCTYPE html>
-<htmml lang = "ua">
+<html lang = "ua">
 <head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>SporeIndustries.com</title>
+<link rel="icon" href="Earth.png">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <style type="text/css">
-	 .a:link,.a visited{
+
+	.a1{
 		color: white;
-		text-decoration: none;
 		border: 5px solid rgb(120, 63, 235);
 		border-radius: 5px;
 		width: 120px;
-		background: rgba(120, 63, 235, 0.2);
 		font-family: Bahnschrift Condensed;
 		display: inline-block;
 		padding: 5px 65px;
@@ -18,43 +21,210 @@
 		margin-top: 5px;
 		margin-bottom: 5px;
 	}
-     .a:hover,.a active {
-        color: rgb(130, 73, 245);
-  	    text-decoration: underline;
-	}
-	table{
-      background-color: black;
-      width: 1520px;
-      border: 4px solid rgba(120, 63, 235, 0.5);
-      border-spacing: 20px;
-      border-radius: 5px;
+    .uphead{
+        display:block;
+        background:black;
+        width: 1495px;
+        border: 4px solid rgba(120, 63, 235, 0.5);
+        border-spacing: 20px;
+        border-radius: 5px;	
     }
-	.th1{
+    .roboty{
+    	margin-left: 10px;
+    }
+    .robota{
+    	margin-left: 15px;
+    	box-shadow: 3px 3px 3px 5px rgba(120, 63, 235,0.5);
+    	margin-top:15px;
+    	display: block;
+    	color: rgba(255, 255, 255, 1.0);
+    	background: black;
+    	border:4px solid rgba(120, 63, 235, 0.9);
+    	border-radius: 5px;
+    	height:70px;
+    	width: 200px;
+    	text-align: center;
+    }
 
-	}
-	.img1{
-	    border: 0px solid black;
-	    margin-left: 0px;
+    .robota:hover{
+    	box-shadow: 2px 2px 2px 4px rgba(130, 73, 245, 0.5);
+        transform: translateY(4px);
+        text-decoration: underline;
+		opacity: 0.7;
+		transition: 0.4s;
+		background:linear-gradient( black,rgba(130, 73, 245, 0.5));
+		color: rgba(160, 103, 255, 1.0);
+    }
+    .r:hover{
+		opacity: 0.7;
+		transition: 0.4s;
+		color: rgba(160, 103, 255, 1.0);
+    }
+    
+    a{
+    	text-decoration: none;
+    }
+	.img2{
+		margin-left: 15px;
+		margin-right: 80px;
+		margin-top: 20px;
+		margin-bottom: 20px;
 	}
 	body{
-		background-color: black;
-		background: black;
+		background:black;
 	}
 	.text{
 		color: white;
 		font-family: Bahnschrift Condensed;
 		margin-left: 25px;
 	}
-	.text1{
+
+	.textz{
+		width: 140px;
+		border-radius: 5px;
+		border:3px solid rgba(120, 63, 235,0.6); ;
+		color: white;
+		font-family: Bahnschrift Condensed;
+		margin-left: 25px;
+	}
+
+	.textz:hover{
+        transform: translateY(4px);
+        text-decoration: underline;
+		opacity: 0.7;
+		transition: 0.4s;
+		background:linear-gradient( black,rgba(130, 73, 245, 0.5));
+		color: rgb(160, 103, 255);
+	}
+
+	.texta{
+		color: rgba(255, 255, 255,0.5);
+		font-family: Bahnschrift Condensed;
+		margin-left: 25px;
+	}
+	.text1, .text1 a{
     	color: white;
 		font-family: Bahnschrift Condensed;
 		margin-left: 20px;
     	border-left-style: solid;
-    	border-color: rgb(120, 63, 235);
+    	border-color: rgb(140, 83, 255);
     	padding-left: 10px;
-    	background-color: rgba(120, 63, 235, 0.3);
-    	width: 200px;
+    	background:linear-gradient(90deg, rgba(120, 63, 235, 0.6), black );
+    	width: 250px;
 	}
+
+	.button-85{
+		box-shadow: 5px 5px 5px 7px rgba(120, 63, 235,0.5);
+		font-size: 26px;
+		background:linear-gradient(black, rgba(120, 63, 235, 0.5) );;
+		color: white;
+		border: 5px solid rgb(120, 63, 235);
+		border-radius: 10px;
+		width: 250px;
+		height: 100px;
+		font-family: Bahnschrift Condensed;
+		padding: 0px 35px;
+		text-align: center;
+		margin-top: 50px;
+		margin-bottom: 50px;
+		margin-left: 70px;
+	}
+	.button-85:hover{
+		box-shadow: 3px 3px 3px 5px rgba(130, 73, 245, 0.5);
+        transform: translateY(4px);
+        text-decoration: underline;
+		opacity: 0.7;
+		transition: 0.4s;
+		background:linear-gradient( black,rgba(130, 73, 245, 0.5));
+		color: rgb(160, 103, 255);
+	}
+	.button-85:link,.button-85:visited{
+		text-decoration: none;
+		transition: 0.4s;
+	}
+    h2{
+    	font-size: 26px;
+    }
+    p{
+    	color:white;
+    	font-family: Bahnschrift Condensed;
+    	font-size: 20px;
+    }
+    .map{
+        display: inline-block;
+        border:4px solid rgba(130, 73, 245, 0.5);
+        border-radius: 10px ;
+    }
+	.tovary{
+		display: inline-block;
+		padding: 10px 10px 10px 1px;
+		margin-left: 20px;
+		border:4px solid rgba(130, 73, 245, 0.5);
+		background:linear-gradient( black 70%,rgba(130, 73, 245, 0.5)); ;
+	}
+	.aps{
+		padding: 10px 10px 1px;
+		margin-left: 15px;
+		border:4px solid rgba(130, 73, 245, 0.5);
+		border-radius: 2px;
+		display: inline-block;
+	}
+	.fa {
+  		float: centre;
+  		display: inline-block;
+  		margin-bottom: 10px;
+  		background: rgba(120, 63, 235, 0.6);
+  		color: black;
+  		padding: 10px;
+  		font-size: 30px;
+  		width: 30px;
+  		text-align: center;
+  		text-decoration: none;
+  		border-radius: 50%;
+  	}
+   
+.fa-caret-down{
+	margin-left: 20px;
+}
+
+.dropdown {
+  width: 350px;
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  margin-left: 180px;
+}
+
+.dropdown-content a {
+  display: block;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.text11, .text11 a{
+    margin-top: 10px;
+    padding-top: 10px;
+    font-family: Bahnschrift Condensed;
+    font-size: 20px;
+	color: white;
+	background:black;
+    height: 30px;
+    width: 120px;
+    text-align: center;
+    border:3px solid rgba(130, 73, 245, 0.5); ;
+    border-radius: 5px;
+}
+
+.text11:hover {
+	opacity: 0.7;
+	transition: 0.4s;
+}
 </style>
 
 <script type="text/javascript">
@@ -64,70 +234,197 @@
 </head>
 <body>
 
-<table>
-	<tr>
-		<th>
-            <a href="file:///C:/Users/Olha%20Orlova/Desktop/SporeIndustries/pgSIUA.html"><img src="image_2023-12-09_21-30-10.png" class="img1" align="left" height="45%"width="45%"></a>
-	    </th>
-		
-		<th class="th1" align="centre">
-			<a href="#au" title="інформація про нас" class="a"><h1>про нас</h1></a>
-		</th>
 
-		<th>
-		</th>
-		
-		<th class="th1" align="centre">
-			<a href="#pos" title="види послуг які ми можем вам надати" class="a"><h1>послуги</h1></a>
-		</th>
+<header>
+<nav class="uphead">
+	
+    <a href="index.html" title="наш логотип"><img src="image_2023-12-09_21-30-10.png" class="img2"align="left" height="13%" width="13%" ></a>
 
-		<th>
-		</th>
-		
-		<th class="th1" align="centre">
-			<a href="#c" title="наші контактні дані" class="a"><h1>контакти</h1></a>
-		</th>
+	<a href="#au" title="інформація про нас"><button class="button-85" role="button"><h3>про нас</h3></button>
+	</a>	
 
-		<th>
-		</th>
-		<th>
-		</th>
-		<th>
-		</th>
-		<th>
-		</th>
-		<th>
-		</th>
-		<th>
-		</th>
-		<th>
-		</th>
-		<th>
-		</th>
-	</tr>
-</table>
-<h1 class="text1" id="au">Про нас</h1>
-    <h3 class="text">Ми нова компанія в агрономічній сфері, оскільки ми тільки почали у нас не так багато досвіду,знань,послуг.</h3>
-    <h3 class="text">Наразі у нас доступна лише 1 послуга, зате не дорога,радимо замовити.</h3>
-    <h3 class="text">Ми попонуємо послуги та товари у різних напрямках(поки не так багато).</h3>
-    <h3 class="text">Якщо у вас є ідеї,поради, чи питання звертайтеся на нашу пошту яка зазначе трохи нижче, дякую.</h3>
-    <h2 class="text">Важлива інформація</h2>
-    <h3 class="text">Усі послуги замовляйте через пошту! Відгуки таож пишіть на пошту!</h3>
-    <h3 class="text">Цей сайт був розроблений для комп'ютерів та ноутбуків, на інших пристроях сайт може відображатися некоректно!</h3>
+<div class="dropdown">
+	<a href="tov"><button class="button-85" role="button" title="Наші пропозиції"><h3>пропозиції</h3></button></a>
+    <div class="dropdown-content">
+	  <a href="#tov" class="text11">Товари</a>
+      <a href="#pos" class="text11">Послуги</a>
+      <a href="#" class="text11">Акції</a>
+      <a href="#vak" class="text11">Вакансії</a>
+    </div>
+</div> 
+	
+<div class="dropdown">	
+	<a href="#c"><button class="button-85" role="button" title="наші контактні дані"><h3>контакти</h3></button></a>
+	<div class="dropdown-content">
+		<a href="#p" class="text11">Пошта</a>
+		<a href="#t" class="text11">Телефон</a>
+		<a href="#ros" class="text11">Розташування</a>
+	</div>
+</div>
 
-<h1 class="text1" id="pos">Послуги</h1>
-	<h2 class="text">Аналіз ґрунту</h2>
-	<h2 class="text">Що в себе включає аналіз ґрунту?</h2>
-	<h3 class="text">1 Рівень Ph (кислотності)</h3>
-	<h3 class="text">2 Вологість (приблизна у мл/г чи кг)</h3>
-	<h3 class="text">3 Тип ґрунту (встановлення типу ґрунту)</h3>
-	<h2 class="text">Ціна: 25 грн.</h2>
+</nav>
+</header>
 
-<h1 class="text1" id="c">Контакти</h1>
-    <h3 class="text">телефон: поки що нема :(</h3>
-    <h3 class="text">пошта: idei.ua.pidtrimka@gmail.com</h3>
+<main>
+<h2 class="text1">Мої роботи</h2>
+<nav class="roboty">
+	<table>
+		<tr>
+			<th>
+				<a href="gradienty.html" target="_blank"><button role="button" class="robota"><p class="r">Градієнти</p></button></a>
+			</th>
+			<th>
+				<a href="images.html" target="_blank"><button role="button" class="robota"><p class="r">Зображення</p></button></a>
+			</th>
+			<th>
+				<a href="animationtext.html" target="_blank"><button role="button" class="robota"><p class="r">Анімації</p></button></a>
+			</th>
+		</tr>
+	
+		<tr>
+			<th>	
+				<a href="muWiwchaemoWebdixain.html" target="_blank"><button role="button" class="robota"><p class="r">Вебдизайн</p></button></a>
+			</th>
+			<th>
+				<a href="formatywaniaSymvoliv.ytml.html" target="_blank"><button role="button" class="robota"><p class="r" >Символи</p></button></a>
+			</th>
+			<th>
+				<a href="maps.html" target="_blank"><button role="button" class="robota"><p class="r">Мапи</p></button></a>
+			</th>
+		</tr>
+			
+		<tr>
+			<th>	
+				<a href="spiski.html" target="_blank"><button role="button" class="robota"><p class="r">Списки</p></button></a>
+			</th>
+			<th>
+				<a href="tablivy.html" target="_blank"><button role="button" class="robota"><p class="r">Таблиці</p></button></a>
+			</th>
+			<th>
+				<a href="Ukraine.html" target="_blank"><button role="button" class="robota"><p class="r">Україна</p></button></a>
+			</th>
+		</tr>
+	</table>
+</nav>
 
-<h1 class="text1">Відгуки</h1>
-    <h3 class="text">поки що нема :(</h3>
+<section>
+ <h2 class="text1" id="au">Про нас</h2>
+    <p class="text">Ми нова компанія в агрономічній сфері, оскільки ми тільки почали у нас не так багато досвіду,знань,послуг.<br>
+    				Наразі у нас доступна лише 1 послуга, зате не дорога,радимо замовити.<br>
+        			Якщо у вас є ідеї,поради, чи питання звертайтеся на нашу пошту яка зазначе трохи нижче, дякую.</p>
+    <p class="text">Усі послуги, та товари замовляйте через пошту!</p>
+
+<h2 class="text1" id="pos">Послуги</h2>
+	<section class="tovary">
+		<p class="text">Аналіз ґрунту</p>
+		<p class="text">Що в себе включає аналіз ґрунту?</p>
+		<p class="text">1 Рівень Ph (кислотності)<br>
+						2 Вологість (приблизна у мл/г чи кг)<br>
+						3 Тип ґрунту (встановлення типу ґрунту)</p>
+		<p class="text">Ціна: 25 грн.</p>
+	</section>
+
+	<section class="tovary">
+		<p class="text">Подовження лап комасі</p>
+		<p class="text">радіус 1 мм<br>
+						матеріал залізо<br>
+						довжина від 0.6 до 1.5см</p>
+		<p class="text">Ціна: 20 грн.</p>
+	</section>
+ 
+<h2 class="text1" id="tov">Товари</h2>
+	<section class="tovary">
+		<p class="text">Культиватор для насіння</p>
+		<p class="text">1 розсіювальний світлодіод<br>
+						система вентиляції<br>
+						живлення 3v</p>
+		<p class="text">Ціна: 40 грн.</p>
+    </section>
+	
+	<section class="tovary">	
+		<p class="text">Мохіум</p>
+		<p class="text">форма кола<br>
+						радіус 4см<br>
+						товщина 0.5см</p>
+		<p class="text">Ціна: 15 грн.</p>
+    </section>
+
+    <section class="tovary">
+		<p class="text">Культиватор для насіння 2.0</p>
+		<p class="text">1 розсіювальний ультрафіолетовий світлодіод<br>
+						збільшений розмір<br>
+						ізоляція дротів<br>
+						система вентиляції<br>
+						живлення 3v</p>
+		<p class="text">Ціна: 70 грн.</p>
+    </section>
+
+    <section class="tovary">
+		<p class="text">Підозріле зілля</p>
+		<p class="text">об'єм 15 мл<br>
+						тривалість ефекту 1-∞ хв<br></p>
+						<a href="indexzilia.html"><p class="textz" title="гатисніть щоб побачити повний список ефектів">можливі ефекти:</p></a>
+								
+		<p class="text">Ціна: 45 грн.</p>
+    </section>
+
+<h2 class="text1" id="vak">Вкансії</h2>
+	<section class="tovary">
+		<p class="text">Біо-інженер</p>
+		<p class="text">ЗП: 15000 грн.<br>
+						Досвід роботи: 5 роки</p>
+	</section>
+
+	<section class="tovary">
+		<p class="text">Інженер</p>
+		<p class="text">ЗП: 12000 грн.<br>
+						Досвід роботи: 4 роки</p>
+	</section>
+
+	<section class="tovary">
+		<p class="text">Пррграміст</p>
+		<p class="text">ЗП: 10000 грн.<br>
+						Досвід роботи: 3 роки</p>
+	</section>
+
+	<section class="tovary">
+		<p class="text">Менеджер з маркетингу</p>
+		<p class="text">ЗП: 9000 грн.<br>
+						Досвід роботи: 4 роки</p>
+	</section>
+
+	<section class="tovary">
+		<p class="text">Кур'єр</p>
+		<p class="text">ЗП: 6000 грн.<br>
+						Досвід роботи: 1 рік</p>
+	</section>
+
+</section>
+</main>
+
+
+<footer id="contacts">
+ 
+ <h2 class="text1" id="c">Контакти</h2>
+    <section>
+    <p class="text">пошта: idei.ua.pidtrimka@gmail.com<br>телефон: +8 800 555 35 35</p>
+    <a href="mailto:idei.ua.pidtrimka@gmail.com"><p class="text" id="p">Написати на пошту</p></a>
+	<a href="tel:+8 800 555 35 35"><p class="text" id="t">Подзвонити</p></a>
+    </section>
+
+    <section class="aps" id="ros">
+    <section class="">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d5806.566602160957!2d30.492544694567012!3d50.52194704280025!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1suk!2sua!4v1718216116441!5m2!1suk!2sua" width="320" height="250"class="map" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></section>
+    <section class="">
+		<a href="#" class="fa fa-telegram"></a>
+		<a href="#" class="fa fa-google"></a>
+		<a href="#" class="fa fa-github"></a>
+		<a href="#" class="fa fa-youtube"></a>
+		<a href="#" class="fa fa-facebook"></a>
+		<a href="#" class="fa fa-instagram"></a>
+	</section> 
+	</section>
+
+</footer>
 </body>
-</html>
+</html> 

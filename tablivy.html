@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Table</title>
+<link rel="stylesheet" type="text/css" href="css/table.css">
+<style type="text/css">
+	body{
+background-color: Lightskyblue;
+}
+p{
+background-color: yellow;
+color: blue;
+font-size: 50px;
+}
+table{
+border: 2px double palegoldenrod;
+font-size: 24px;
+width: 50%;
+}
+th, td{
+border: 1px solid beige;
+width: 25%;
+height: 1cm;
+}
+tr:hover{
+background-color: Lightgrey;
+}
+td:hover{
+background-image: url(https://i.gifer.com/4dZN.gif);
+font-weight: bold;
+text-transform: uppercase;
+text-align: center;
+}
+tr:nth-child(even){
+background-color: Lightpink;
+}
+tr:nth-child(odd) {
+background-color: Lightseagreen;
+}
+.sc{
+border: 2px dashed red;
+text-align: right;
+vertical-align: bottom;
+}
+caption{
+font-size:
+48px;
+background: Linear-gradient(to left, red, orange, yellow, green, blue,violet,purple);
+color: Lightseagreen;
+text-transform: uppercase;
+}
+</style>
+
+</head>
+	<body>
+	<p>Ми вивчаємо роботу з таблицями</p>
+	<table>
+	<caption>Web colors</caption>
+	<thead>
+		<tr>
+			<th colspan="2">Color+Name</th>
+			<th>HEX</th>
+			<th>RGB</th>
+		</tr>
+	</thead>
+	
+	<tbody>
+		<tr>
+			<td style="background: #000;" class="sc"></td>
+			<td>Black</td>
+			<td>#000000</td>
+			<td>(0,0,0)</td>
+		</tr>
+
+		<tr>
+			<td style="background: #f00;"></td>
+			<td>Red</td>
+			<td>#ff0000</td>
+			<td>(255,0,0)</td>
+		</tr>
+
+		<tr>
+			<td style="background: #0f0;" class="sc"></td>
+			<td>Green</td>
+			<td>#00ff00</td>
+			<td>(0,255,0)</td>
+		</tr>
+
+		<tr>
+			<td style="background: #00f;"></td>
+			<td>Blue</td>
+			<td>#0000ff</td>
+			<td>(0,0,255)</td>
+		</tr>
+
+		<tr>
+			<td style="background: #ff0;" class="sc"></td>
+			<td>Yellow</td>
+			<td>#ffff00</td>
+			<td>(255,255,0)</td>
+		</tr>
+
+		<tr>
+			<td style="background: #0ff;"></td>
+			<td>Aqua</td>
+			<td>#00ffff</td>
+			<td>(0,255,255)</td>
+		</tr>
+
+		<tr>
+			<td style="background: #f0f;" class="sc"></td>
+			<td>Fuchsia</td>
+			<td>#ff00ff</td>
+			<td>(255,0,255)</td>
+		</tr>
+
+		<tr>
+			<td style="background: #808000;"></td>
+			<td>Olive</td>
+			<td>#808000</td>
+			<td>(128,128,0)</td>
+		</tr>
+
+		<tr>
+			<td style="background: #4B0082;" class="sc"></td>
+			<td>Indigo</td>
+			<td>#4B0082</td>
+			<td>(75,0,130)</td>
+		</tr>
+
+		<tr>
+			<td style="background: #fff;"></td>
+			<td>White</td>
+			<td>#ffffff</td>
+			<td>(255,255,255)</td>
+		</tr>
+	</tbody>
+	</table>
+
+</body>
+</html>
