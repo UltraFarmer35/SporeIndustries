@@ -9,32 +9,23 @@
 
 <style type="text/css">
 
-	.a1{
-		color: white;
-		border: 5px solid rgb(120, 63, 235);
-		border-radius: 5px;
-		width: 120px;
-		font-family: Bahnschrift Condensed;
-		display: inline-block;
-		padding: 5px 65px;
-		text-align: center;
-		margin-top: 5px;
-		margin-bottom: 5px;
-	}
+
     .uphead{
+        box-shadow: 3px 7px 10px 5px rgba(120, 63, 235, 0.5);
         display:block;
         background:black;
         width: 1495px;
-        border: 4px solid rgba(120, 63, 235, 0.5);
+        border: 4px solid rgba(120, 63, 235, 1.0);
         border-spacing: 20px;
         border-radius: 5px;	
+        margin-bottom: 30px;
     }
     .roboty{
     	margin-left: 10px;
     }
     .robota{
     	margin-left: 15px;
-    	box-shadow: 3px 3px 3px 5px rgba(120, 63, 235,0.5);
+    	box-shadow: 3px 3px 3px 5px rgba(120, 63, 235, 0.5);
     	margin-top:15px;
     	display: block;
     	color: rgba(255, 255, 255, 1.0);
@@ -67,7 +58,7 @@
 	.img2{
 		margin-left: 15px;
 		margin-right: 80px;
-		margin-top: 20px;
+		margin-top: 15px;
 		margin-bottom: 20px;
 	}
 	body{
@@ -85,7 +76,7 @@
 		border:3px solid rgba(120, 63, 235,0.6); ;
 		color: white;
 		font-family: Bahnschrift Condensed;
-		margin-left: 25px;
+		margin-left: 55px;
 	}
 
 	.textz:hover{
@@ -114,9 +105,9 @@
 	}
 
 	.button-85{
-		box-shadow: 5px 5px 5px 7px rgba(120, 63, 235,0.5);
+		box-shadow: 5px 5px 5px 6px rgba(120, 63, 235,0.5);
 		font-size: 26px;
-		background:linear-gradient(black, rgba(120, 63, 235, 0.5) );;
+		background:linear-gradient(black 100%, rgba(120, 63, 235, 0.5));;
 		color: white;
 		border: 5px solid rgb(120, 63, 235);
 		border-radius: 10px;
@@ -157,7 +148,7 @@
     }
 	.tovary{
 		display: inline-block;
-		padding: 10px 10px 10px 1px;
+		padding: 10px 30px 10px 1px;
 		margin-left: 20px;
 		border:4px solid rgba(130, 73, 245, 0.5);
 		background:linear-gradient( black 70%,rgba(130, 73, 245, 0.5)); ;
@@ -169,6 +160,7 @@
 		border-radius: 2px;
 		display: inline-block;
 	}
+	
 	.fa {
   		float: centre;
   		display: inline-block;
@@ -182,49 +174,88 @@
   		text-decoration: none;
   		border-radius: 50%;
   	}
+
+  	.fa:hover{
+  		background: rgba(255, 255, 255, 0.9);
+  		transition: 0.5s;
+  	}
    
-.fa-caret-down{
-	margin-left: 20px;
-}
+	.fa-caret-down{
+		margin-left: 20px;
+	}
 
-.dropdown {
-  width: 350px;
-  float: left;
-  overflow: hidden;
-}
+	.dropdown {
+	  width: 350px;
+	  float: left;
+	  overflow: hidden;
+	}
 
-.dropdown-content {
-  display: none;
-  position: absolute;
-  margin-left: 180px;
-}
+	.dropdown-content {
+	  display: none;
+	  position: absolute;
+	  margin-left: 180px;
+	}
 
-.dropdown-content a {
-  display: block;
-}
+	.dropdown-content a {
+	  display: block;
+	}
 
-.dropdown:hover .dropdown-content {
-  display: block;
-}
+	.dropdown:hover .dropdown-content {
+	  display: block;
+	  margin-top: -40px;
+	}
 
-.text11, .text11 a{
-    margin-top: 10px;
-    padding-top: 10px;
-    font-family: Bahnschrift Condensed;
-    font-size: 20px;
-	color: white;
-	background:black;
-    height: 30px;
-    width: 120px;
-    text-align: center;
-    border:3px solid rgba(130, 73, 245, 0.5); ;
-    border-radius: 5px;
-}
+	.text11, .text11 a{
+	    margin-top: 10px;
+	    padding-top: 10px;
+	    font-family: Bahnschrift Condensed;
+	    font-size: 20px;
+		color: white;
+		background:black;
+	    height: 30px;
+	    width: 120px;
+	    text-align: center;
+	    border:3px solid rgba(130, 73, 245, 0.5); 
+	    border-radius: 5px;
+	}
 
-.text11:hover {
-	opacity: 0.7;
-	transition: 0.4s;
-}
+	.text11:hover {
+		transition: 0.4s;
+		background: rgba(130, 73, 245, 0.7);
+		border:3px solid rgba(255, 255, 255, 0.8);
+	}
+
+	.banb{
+		cursor: not-allowed;
+		margin-top: 10px;
+	    padding-top: 10px;
+	    font-family: Bahnschrift Condensed;
+	    font-size: 20px;
+		color: white;
+		background:black;
+	    height: 30px;
+	    width: 120px;
+	    text-align: center;
+	    border:3px solid rgba(130, 73, 245, 0.5); ;
+	    border-radius: 5px;
+	}
+
+	.bani{
+		cursor: not-allowed;
+		float: centre;
+	  	display: inline-block;
+	  	margin-bottom: 10px;
+	  	background: rgba(120, 63, 235, 0.6);
+	  	color: black;
+	  	padding: 10px;
+	  	font-size: 30px;
+	  	width: 30px;
+	  	height: 30px;
+	  	text-align: center;
+	  	text-decoration: none;
+	  	border-radius: 50%;
+	}
+
 </style>
 
 <script type="text/javascript">
@@ -248,8 +279,8 @@
     <div class="dropdown-content">
 	  <a href="#tov" class="text11">Товари</a>
       <a href="#pos" class="text11">Послуги</a>
-      <a href="#" class="text11">Акції</a>
-      <a href="#vak" class="text11">Вакансії</a>
+      <a href="#akc" class="text11 banb">Акції</a>
+      <a href="#vak" class="text11 banb">Вакансії</a>
     </div>
 </div> 
 	
@@ -266,6 +297,7 @@
 </header>
 
 <main>
+
 <h2 class="text1">Мої роботи</h2>
 <nav class="roboty">
 	<table>
@@ -308,89 +340,99 @@
 </nav>
 
 <section>
- <h2 class="text1" id="au">Про нас</h2>
-    <p class="text">Ми нова компанія в агрономічній сфері, оскільки ми тільки почали у нас не так багато досвіду,знань,послуг.<br>
-    				Наразі у нас доступна лише 1 послуга, зате не дорога,радимо замовити.<br>
-        			Якщо у вас є ідеї,поради, чи питання звертайтеся на нашу пошту яка зазначе трохи нижче, дякую.</p>
-    <p class="text">Усі послуги, та товари замовляйте через пошту!</p>
+<br>
+<h2 class="text1" id="au">Про нас</h2>
+    <p class="text">Ми нова компанія в поки що агрономічній сфері.<br>
+    				Оскільки ми тільки почали у нас не так багато досвіду, знань, товарів та послуг.<br>
+    				Якщо у вас є ідеї, поради, чи питання звертайтеся на нашу пошту, телефон або наш тг, дякую.<br>
+    				Наразі у нас доступна лише 1 послуга, зате не дорога, радимо замовити.</p>
+        			
+    <p class="text">Усі послуги та товари замовляйте через пошту, телефон, або телеграм !<br>
+    				Більш детально про товари, а також зображення товарів у нашому телеграм !</p>
 
 <h2 class="text1" id="pos">Послуги</h2>
+	
 	<section class="tovary">
 		<p class="text">Аналіз ґрунту</p>
 		<p class="text">Що в себе включає аналіз ґрунту?</p>
 		<p class="text">1 Рівень Ph (кислотності)<br>
-						2 Вологість (приблизна у мл/г чи кг)<br>
+						2 Вологість (приблизна)<br>
 						3 Тип ґрунту (встановлення типу ґрунту)</p>
 		<p class="text">Ціна: 25 грн.</p>
 	</section>
 
-	<section class="tovary">
-		<p class="text">Подовження лап комасі</p>
-		<p class="text">радіус 1 мм<br>
-						матеріал залізо<br>
-						довжина від 0.6 до 1.5см</p>
-		<p class="text">Ціна: 20 грн.</p>
-	</section>
- 
 <h2 class="text1" id="tov">Товари</h2>
-	<section class="tovary">
-		<p class="text">Культиватор для насіння</p>
-		<p class="text">1 розсіювальний світлодіод<br>
-						об'єм 120 мл<br>
-						система вентиляції<br>
-						живлення 3v</p>
-		<p class="text">Ціна: 40 грн.</p>
-    </section>
 	
-	<section class="tovary">	
-		<p class="text">Мохіум</p>
-		<p class="text">форма кола<br>
-						радіус 4см<br>
-						товщина 0.5см</p>
-		<p class="text">Ціна: 15 грн.</p>
-    </section>
+	<table>
+		<tr>
+			<th>
+				<section class="tovary">
+					<p class="text">Культиватор для насіння</p>
+					<p class="text">1 розсіювальний світлодіод<br>
+									об'єм 120 мл<br>
+									система вентиляції<br>
+									живлення 3v</p>
+					<p class="text">Ціна: 40 грн.</p>
+			    </section>
+			</th>
+			
+			<th>
+				<section class="tovary">	
+					<p class="text">Мохіум</p>
+					<p class="text">форма кола<br>
+								радіус ≈4см<br>
+								товщина ≈5мм</p>
+					<p class="text">Ціна: 15 грн.</p>
+		    	</section>
+			</th>
+			
+			<th>
+				<section class="tovary">
+			    	<p class="text">Батарейний блок 3V</p>
+			    	<p class="text">місткість 2 батарейки<br>
+			    					довжина дротів ≈10см</p>
+			    	<p class="text">Ціна: 23 грн.</p>
+			    </section>
+			</th>
+		    
+		    <th>
+		    	<section class="tovary">
+					<p class="text">Підозріле зілля)))</p>
+					<p class="text">об'єм 15 мл<br>
+								тривалість ефекту 1-∞ хв<br></p>
+								<a href="indexzilia.html"><p class="textz" title="гатисніть щоб побачити повний список ефектів">можливі ефекти:</p></a>
+										
+					<p class="text">Ціна: 25 грн.</p>
+		    	</section>
+		    </th>
+		    
+		
+		</tr>
+	</table>
 
-    <section class="tovary">
-		<p class="text">Культиватор для насіння 2.0</p>
-		<p class="text">1 розсіювальний блакитний світлодіод<br>
-						об'єм 120 мл<br>
-						ізоляція дротів<br>
-						система вентиляції<br>
-						живлення 3v</p>
-		<p class="text">Ціна: 70 грн.</p>
-    </section>
-
-    <section class="tovary">
-		<p class="text">Підозріле зілля</p>
-		<p class="text">об'єм 15 мл<br>
-						тривалість ефекту 1-∞ хв<br></p>
-						<a href="indexzilia.html"><p class="textz" title="гатисніть щоб побачити повний список ефектів">можливі ефекти:</p></a>
-								
-		<p class="text">Ціна: 45 грн.</p>
-    </section>
 
 </main>
 
 
 <footer id="contacts">
  
- <h2 class="text1" id="c">Контакти</h2>
+<h2 class="text1" id="c">Контакти</h2>
     <section>
-    <p class="text">пошта: idei.ua.pidtrimka@gmail.com<br>телефон: +8 800 555 35 35</p>
+    <p class="text">пошта: idei.ua.pidtrimka@gmail.com<br>телефон: +380 95 240 50 54</p>
     <a href="mailto:idei.ua.pidtrimka@gmail.com"><p class="text" id="p">Написати на пошту</p></a>
-	<a href="tel:+8 800 555 35 35"><p class="text" id="t">Подзвонити</p></a>
+	<a href="tel:+380 95 240 50 54"><p class="text" id="t">Подзвонити</p></a>
     </section>
 
     <section class="aps" id="ros">
     <section class="">
     <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d5806.566602160957!2d30.492544694567012!3d50.52194704280025!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1suk!2sua!4v1718216116441!5m2!1suk!2sua" width="320" height="250"class="map" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></section>
     <section class="">
-		<a href="t.me/Spore_Industries" class="fa fa-telegram"></a>
-		<a href="#" class="fa fa-google"></a>
-		<a href="#" class="fa fa-github"></a>
-		<a href="#" class="fa fa-youtube"></a>
-		<a href="#" class="fa fa-facebook"></a>
-		<a href="#" class="fa fa-instagram"></a>
+		<a href="https://t.me/Spore_Industries" class="fa fa-telegram"></a>
+		<a href="#" class="bani fa fa-google "></a>
+		<a href="#" class="bani fa fa-github"></a>
+		<a href="#" class="bani fa fa-youtube"></a>
+		<a href="#" class="bani fa fa-facebook"></a>
+		<a href="#" class="bani fa fa-instagram" ></a>
 	</section> 
 	</section>
 
