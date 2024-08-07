@@ -3,7 +3,7 @@ body{
 
 .text{
 	color: white;
-	font-family: Bahnschrift Condensed;
+	font-family: "Bahnschrift Condensed";
 	margin-left: 25px;}
 
 a{
@@ -14,12 +14,12 @@ h2{
 
 p{
     color:white;
-    font-family: Bahnschrift Condensed;
+    font-family: "Bahnschrift Condensed";
     font-size: 20px;}
 
 .text1, .text1 a{
     color: white;
-	font-family: Bahnschrift Condensed;
+	font-family: "Bahnschrift Condensed";
 	margin-left: 20px;
     border-left-style: solid;
     border-color: rgb(140, 83, 255);
@@ -53,7 +53,7 @@ p{
 .textov1{
 	font-size: 50px;
 	color: white;
-	font-family: Bahnschrift Condensed;
+	font-family: "Bahnschrift Condensed";
 	margin-left: 20px;
     border-left-style: solid;
     border-color: rgb(140, 83, 255);
